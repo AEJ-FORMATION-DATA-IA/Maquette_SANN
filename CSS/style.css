@@ -1,0 +1,288 @@
+/*********************************************************************************************************/
+*{text-decoration: none; list-style-type: none; box-sizing: border-box;font-family:Arial, Helvetica}
+html{ --best-color:#111827; --main-color:#111827; --besta-color:#111827; --brd-color: #111827;}
+/*********************************************************************************************************/
+
+/* ****************************BODY**************************************/
+.igs-mgt-40{margin-top: 40px;}
+.igs-mgr-40{margin-right: 40px;}
+.igs-mgb-20{margin-bottom: 20px;}
+.igs-mgl-40{margin-left: 40px;}
+.igs-txt-color-white{color: #ffffff;}
+.igs-bgc-dark-blueJs{background-color:var(--best-color);}
+/* ****************************BODY**************************************/
+
+
+
+/******************************NAV START*****************************/
+.igs-hg-30{ height: 30px;} 
+.igs-wd-100{width: 100%;}
+.igs-bgc-dark-blue{background-color:#111827}
+.igs-dsp-in-block{display: inline-block;}
+.igs-font-wg{font-weight: bold}
+.igs-pd-5{padding: 5px;}
+.igs-font-sz-17{font-size: 17px;}
+.igs-float-r{float: right;}
+.igs-mgt--20{margin-top: -20px;} 
+.igs-mgr-10{margin-right: 10px;}
+.igs-mgl--20{margin-left: -20px;}
+/*******************************NAV END******************************/
+
+
+/*******************************CONTAINER START******************************/
+.igs-dsp-grid{	display: grid;}
+.igs-grid-tp-cl-1fr{grid-template-columns: 1fr;}
+.igs-grid-gp-25{grid-gap: 25px;}
+.igs-pd-5{padding: 5px;}
+.igs-brd-5s{border:5px solid var(--main-color);}
+/*******************************CONTAINER END*******************************/
+
+/*******************************GRID PROPERTIES*******************************/
+.igs-brd-3s{border: 3px solid var(--besta-color);}
+.igs-pdl-5{padding-left: 5px;}
+.igs-pdr-5{padding-right: 5px;}
+/*******************************GRID PROPERTIES*******************************/
+
+
+/*********************************************GRID 1 START***************************************************/
+.igs-dsp-flex{display: flex}
+.igs-flex-wrp-wrap{flex-wrap: wrap}
+.igs-jsfy-cntnt-space-bet{justify-content: space-between}
+
+/*TEXTE-CARRE*/
+.igs-mgt-5{margin-top: 5px;}
+.igs-mgb-5{margin-bottom: 5px;}
+.igs-hg-510{height: 510px; }
+.igs-wd-47{width: 47%;}
+.igs-pdt-20{padding-top: 20px;}
+.igs-brd-2s{border:2px solid var(--brd-color);}   
+.igs-font-sz-65{font-size: 65px;} 
+.igs-font-wg-bold{font-weight: bold;}   
+.igs-pdt-45{padding-top: 45px;}
+.igs-pdb-45{padding-bottom: 45px;}
+.igs-txt-deco-under{text-decoration-line:underline;}
+.igs-txt-color-gray{color: rgb(129, 131, 139);} 
+.igs-mgt--8{margin-top: -8px;} 
+.igs-font-sz-15{font-size: 15px;} 
+.igs-flex-dir-col{flex-direction: column}
+/*TEXTE-CARRE*/
+
+/*INSIDE*/
+.igs-hg-200{height: 200px;} 
+.igs-bgc-lit-blue{background: #1F2937} 
+.igs-pdr-40{padding-left: 20px} 
+.igs-pdb-40{padding-bottom: 20px} 
+.igs-mgt-10{margin-top: 10px;} 
+.igs-mgt--10{margin-top: -10px;} 
+.igs-mgb-10{margin-bottom: 10px;} 
+.igs-overflo-hid{overflow: hidden;}
+.igs-hover-bgc-white:hover{background-color: #ffffff;}
+.igs-hover-txtco-black:hover{color: #000000;}
+/******************************************************GRID 1 END****************************************************/
+
+
+
+
+/******************************************************GRID 2 START***************************************************/
+.grid2{padding: 5px; margin-top: 40px;}
+
+.client{
+	border:1px solid var(--brd-color);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 110px; width: 100%;}
+
+.para{border:1px solid var(--brd-color);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 130px; width: 100%;;margin-top: 5px;
+	padding-top: 20px;}
+
+.fa{ width: 400px; height: 50px; margin-top: -30px;}
+.fs{ width: 400px; height: 50px; margin-top: -30px;}
+
+.fb, .fc, .fd{
+	padding-top: 10px;
+	height: 60px;
+	padding-right: 50px;}
+
+.client h2{
+	font-size: 48px;
+	font-weight: bold;}
+
+.client img, .para img{
+	padding: 5px;
+	height: 100px;}
+
+.client img:hover{margin-top: -30px}
+
+.para img:hover{margin-top: 30px;}
+/*************************************************GRID 2 END************************************************************/
+
+/*************************************************GRID 3 START*********************************************************/
+
+.grid3{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+    padding: 5px 5px;
+	margin-top:40px ;}
+
+.chap, .python, .script {
+	padding: 10px;
+    background: #1F2937;
+	border:1px solid var(--brd-color);
+	height: auto;
+    margin-right: 10px;}
+
+.chap:hover, .python:hover, .script:hover,.work:hover{ color: black;
+	background-color: white;}
+
+.base{height: 130px;width: auto;}
+
+.number p, .work p, .fs p{color: rgb(129, 131, 139) }
+
+.script p, .python p, .chap p, .work h4{text-decoration: underline}
+
+.work{
+	border:1px solid var(--brd-color);
+	padding: 10px;
+	overflow: hidden;
+	text-align: right;
+	height: 330px}
+
+.work h2{font-size: 34px;}
+
+.python img:hover, .script img:hover, .chap img:hover{
+	box-sizing: border-box;
+	box-shadow: 0px 4px 0px 3px rgb(7, 37, 206);}
+
+/*************************************************GRID 3 END*********************************************************/
+
+/*************************************************GRID 4 START*******************************************************/
+.grid4{margin-top: 40px;
+	display: flex;
+	justify-content: space-between; 
+	height: 450px; 
+	width: 100%;
+	background-color: var(--best-color)}
+.number{
+	margin: 0px 0px;
+	padding-left: 20px;
+	margin-top: 10%;
+	background-color: #111827;
+    border:1px solid var(--brd-color);
+	height: 60%;
+	width: 30%;}
+
+.number h1{font-size: 35px;}
+
+.n1, .n2{
+	display: inline-block;
+	height:160px;
+	width: 120px;
+	margin-top: 5px;}
+
+.formula{
+	margin: 5px 0px;
+	padding: 20px;
+	background-color: #1F2937;
+    border:1px solid var(--brd-color);
+	height: 425px;
+	width: 35%;}
+
+.f2{height: 90px;background-color: #333e4d;margin: 10px 0px;} 
+
+.f2:hover{ color: black;background-color: white;}
+
+.bord{
+	text-align: center;
+	border: 1px solid white ;
+	height: 40px;
+	margin: 20px 0px;
+	padding: 8px 4px 4px 4px;
+	cursor: pointer;
+	color: #333e4d;;
+	background-color: #333e4d;}   
+
+.bord:hover{ color: white;
+			background-color:#2008f8;
+			transition: 1s ease-in-out;}
+	
+.bord p{
+	margin-bottom: 1px;
+	font-weight: bold;
+	margin-top: 0px;}
+
+input{
+	margin: 10px 0px;
+	padding: 0px 10px;
+	height: 40px;
+	width: 100%;
+	background-color:#333e4d ;
+	color: aliceblue;
+	font-size: 16px;
+	border:none;
+white-space: pre-wrap;
+white-space: pre-line;}
+
+input:hover{background-color:#ffffff ;color: rgb(0, 0, 0);}
+/***********************************************GRID 4 END************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************** FINAL BUTTON**************************************/
+.btn{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background-color: aliceblue;
+	position: fixed;
+	cursor: pointer;
+	animation: chargeur 10s alternate infinite;}
+	
+@keyframes chargeur{
+
+    0% {transform: rotate(0deg) scale(1);
+        border: 3px solid #f8f8f8;
+	    background-color: #111827;
+	    color: #ffffff;}
+
+    50%{ transform: rotate(360deg) scale(1);
+		border: 3px solid #ffffff ;
+		background-color: rgb(45, 214, 3);
+		color: #ffffff}
+
+    100%{transform: rotate(720deg) scale(1);
+        border: 3px solid #f8f9fa;
+		background-color: rgb(6, 9, 241);
+		color: #ffffff}}
+/************************ FINAL BUTTON*****************************/
